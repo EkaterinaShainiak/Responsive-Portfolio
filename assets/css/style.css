@@ -45,6 +45,7 @@ body {
     padding-top: 0px;
     float: left;
     margin-right: 30px;
+    margin-bottom: 40px;
 }   
 .aside {
     width: 270px;
@@ -128,9 +129,26 @@ header {
      
     }
     #article {
-        width: 400px;
+        width: 60%;
+    }
+    .aside {
+        widows: 30%;
+    }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+
+    #me {
+        height: 300px;
+        float: left;
+    }
+    #article {
+        width: 100%;
+        margin: auto; 
+    }
+    .aside {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
     }
 }
-
-
- 
